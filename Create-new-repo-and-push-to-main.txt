@@ -16,3 +16,9 @@ git remote add origin https://andyrhman:<Token Key>@github.com/andyrhman/github-
 ### Push the repo
 git push origin main
 
+### Set the upstream
+git push --set-upstream origin main
+
+### And in the future you can just use
+git push
+
