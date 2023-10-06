@@ -1,0 +1,18 @@
+### Initialize git
+git init
+
+### Add all of the folders and files
+git add .
+
+### Commit the code
+git commit -m "first commit"
+
+### Change the branch to main
+git branch -M main
+
+### Set the url repo
+git remote add origin https://andyrhman:<Token Key>@github.com/andyrhman/github-crash-course.git
+
+### Push the repo
+git push origin main
+
