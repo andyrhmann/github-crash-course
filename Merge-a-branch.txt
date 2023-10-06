@@ -1,0 +1,11 @@
+### Checkout to main/master
+git checkout main/master
+
+### Select your branches
+git branch
+
+### Merge the branches with the main/master
+git merge <branches name>
+
+### (Optional) Delete branch after merge
+git branch -D <branches name>

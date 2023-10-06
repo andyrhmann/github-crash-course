@@ -1,0 +1,22 @@
+### Check the commit ID by using git log
+git log
+
+### Undo changes by deleting all commits since <id>
+git reset --hard <id>
+
+!!! Example
+so for example we have commit id that looks like this
+ 6bd653352f87d38d42c895b9dca4eb2742b5f8ac
+ 9570aef2e0c64497c15dd21420a1d1bc30648182
+ fb9c2dfaab911f88b79e8c9dfa5d5f1493807ca2
+ 9570aef2e0c64497c15dd21420a1d1bc30648182
+ bd653352f87d38d42c895b9dca4eb2742b5f8ac
+
+and i want deleting all of the id but keep the fb9c2d id, 
+the command will be
+git reset --hard fb9c2dfaab911f88b79e8c9dfa5d5f1493807ca2
+
+so it's going to be like this after reset
+fb9c2dfaab911f88b79e8c9dfa5d5f1493807ca2
+9570aef2e0c64497c15dd21420a1d1bc30648182
+bd653352f87d38d42c895b9dca4eb2742b5f8ac

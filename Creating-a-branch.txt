@@ -1,0 +1,16 @@
+### Creating a branch
+git branch layout/about
+
+### Showing list of branch
+  layout/about
+* master
+
+### Checkout branch
+git checkout <branch name>
+
+### Delete a branch
+git branch -D <branch name>
+
+### Create and checkout branch
+git checkout -b <branch name>
+

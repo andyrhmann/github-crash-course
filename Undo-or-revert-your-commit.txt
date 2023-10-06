@@ -1,0 +1,11 @@
+### Check the commit ID by using git log
+git log
+
+### Revert to or delete the previous commit code by using
+git revert <id>
+
+!!! The git revert delete the previous commited code, use this command if you want to change your previous commit.
+!!! And push commit the new code again if there's changes in the code
+
+!!! If you use VS code to push previous commited the code, go to source control to commit again
+

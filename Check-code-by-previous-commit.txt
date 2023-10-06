@@ -1,0 +1,8 @@
+### Check the commit ID by using git log
+git log
+
+### Back to previous commit to see previous commited code
+git checkout <ID>
+
+### Return to main/master or latest commit
+git checkout main/master
