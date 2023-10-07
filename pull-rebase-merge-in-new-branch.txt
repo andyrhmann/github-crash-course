@@ -1,0 +1,59 @@
+! Use this if you want to keep your existing code, and you just want to merge with the main branch code.
+### Method 1: Using git merge
+
+##Switch to the main branch:
+git checkout main
+
+## Pull the latest changes from the remote main branch:
+git pull origin main
+
+## Switch back to your feature branch:
+git checkout my-branch
+
+## Merge the changes from the main branch into your feature branch:
+git merge main
+
+## If there are any conflicts, resolve them and commit the changes:
+git add <conflicted-file>
+git commit -m "Merge branch 'main' into my-branch"
+
+## Push the updated feature branch to the remote repository:
+git push origin my-branch
+
+! Use this if you want to rewrites your existing code and use the main branch code.
+###Method 2: Using git rebase
+
+## Ensure that your local main branch is up-to-date with the remote main branch:
+git checkout main
+git pull origin main
+
+## Switch back to your feature branch and rebase it onto the main branch:
+git checkout my-branch
+git rebase main
+
+## If there are any conflicts, resolve them and continue the rebase:
+git add <conflicted-file>
+git rebase --continue
+
+## Push the updated feature branch to the remote repository:
+git push origin my-branch
+
+! This steps works the same as git merge
+### Method 3: Using git pull
+
+## Switch to the branch you want to update with changes from main:
+git checkout my-branch
+
+## Use the git pull command to fetch and merge the latest changes from the main branch:
+git pull origin main --allow-unrelated-histories
+
+## If there are any conflicts, resolve them and commit the changes:
+git add <conflicted-file>
+git commit -m "Merge changes from main into my-branch"
+
+Please note that each method has its advantages and use cases. 
+git merge creates a new merge commit for each update from the main branch, which preserves 
+the chronological order of commits. git rebase rewrites the project history by creating new commits 
+for each commit from the main branch, which makes for a cleaner project history. 
+git pull is a simple way to update your branch with the latest changes from the main branch, 
+but it might create merge conflicts if there are divergent changes
