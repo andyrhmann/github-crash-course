@@ -1,7 +1,15 @@
 ### Check the remote
 git remote
 
-### Get the url origin
-git remote get-url origin
+! Use this if you create a new repo
+!! Please check the Create-new-repo-and-push-to-main.txt files
+### Add the url origin
+git remote add origin https://andyrhman:<access token>@github.com/andyrhman/github-crash-course.git
 
+! Use this if you just want to check the url origin
+### Get the url origin
+git remote get-url origin https://andyrhman:<access token>@github.com/andyrhman/github-crash-course.git
+
+! Use this if you are a collaborators and i want to set the repo url
 ### Set the url origin
+git remote set-url origin https://andyrhman:<access token>@github.com/andyrhman/github-crash-course.git

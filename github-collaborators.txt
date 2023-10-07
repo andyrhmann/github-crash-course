@@ -1,0 +1,11 @@
+### Set the url origin
+git remote set-url origin https://andyrhman:<access token>@github.com/andyrhman/github-crash-course.git
+
+### Add the files
+git add .
+
+### Commit the files
+git commit -m ""
+
+### Push to branch
+git push origin <branch name>
