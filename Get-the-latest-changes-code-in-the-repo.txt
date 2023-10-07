@@ -1,0 +1,2 @@
+### If there's a latest changes in github repo and you need to download it 
+git pull
