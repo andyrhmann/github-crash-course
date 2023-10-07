@@ -5,7 +5,7 @@ git remote set-url origin https://andyrhman:<access token>@github.com/andyrhman/
 git add .
 
 ### Commit the files
-git commit -m "A"
+git commit -m "ABC"
 
 ### Push to branch
 git push origin <branch name>
