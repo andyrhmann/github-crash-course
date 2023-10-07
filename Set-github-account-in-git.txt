@@ -1,5 +1,5 @@
 ### Set the username
-git config --global user.name "andyrhmann"
+git config --global user.name "andyrhman"
 
 ### Set the email
 git config --global user.email "andyrahman989@gmail.com"
