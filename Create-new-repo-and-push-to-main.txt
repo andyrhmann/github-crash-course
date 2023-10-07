@@ -11,7 +11,7 @@ git commit -m "first commit"
 git branch -M main
 
 ### Set the url repo
-git remote add origin https://andyrhman:<Token Key>@github.com/andyrhman/github-crash-course.git
+git remote add origin https://andyrhman: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@github.com/andyrhman/github-crash-course.git
 
 ### Push the repo
 git push origin main
