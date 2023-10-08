@@ -1,0 +1,20 @@
+! Use this if you want to merge your branch to the main branch as a collaborator.
+### Go to pull request navigation on github
+
+### Select the button that says "New pull request"
+
+### Type the title and description, and click the "Create pull request"
+
+### Pull the main branch
+git pull origin main
+
+### Merge 
+git merge main
+
+### commit
+git commit -m ""
+
+### Push to your branch NOT the main
+git push origin <branch name>
+
+### Wait for the owner to merge with the main
