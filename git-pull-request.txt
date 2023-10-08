@@ -18,3 +18,7 @@ git commit -m ""
 git push origin <branch name>
 
 ### Wait for the owner to merge with the main
+
+### If you are the owner fetch first the code in github and store the code locally, before push new code.
+git checkout main
+git pull origin main
