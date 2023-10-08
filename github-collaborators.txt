@@ -1,3 +1,5 @@
+!!! Remember to set it to public when you want to protect the main branches.
+!! So that the collab user can't push to the main
 ### Set the url origin
 git remote set-url origin https://andyrhman:<access token>@github.com/andyrhman/github-crash-course.git
 
@@ -5,7 +7,7 @@ git remote set-url origin https://andyrhman:<access token>@github.com/andyrhman/
 git add .
 
 ### Commit the files
-git commit -m "A"
+git commit -m "ABC"
 
 ### Push to branch
 git push origin <branch name>

@@ -13,6 +13,8 @@ git checkout my-branch
 ## Merge the changes from the main branch into your feature branch:
 git merge main
 
+!!! Use this if there's no message for commot pop up in the terminal
+!! Skip to push if there is commit message in terminal
 ## If there are any conflicts, resolve them and commit the changes:
 git add <conflicted-file>
 git commit -m "Merge branch 'main' into my-branch"
